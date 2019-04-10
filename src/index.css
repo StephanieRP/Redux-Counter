@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1b1b1b;
+}
+
+.main-container {
+  width: 50%;
+  margin: 4rem auto;
+  background: burlywood;
+  padding: 2rem;
+}
+
+p {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  width: 25%;
+  background: cadetblue;
+  border: black 0.5px solid;
+  outline: none;
+}
+
+button:hover {
+  background: white;
+  color: red;
+}
